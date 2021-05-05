@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  background-color: #f0ebcc;
+  font-family: 'Montserrat', sans-serif;
+  color: #393e46;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #344fa1;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  color: #344fa1;
+}
+
+a {
+  color: #344fa1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #393e46;
+}
+
+.no-margin {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#profile-pic {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: #f6f6f6;
+  padding: 40px;
+  box-shadow: 0px 0px 40px rgb(0 0 0 / 80%);
+  border-radius: 4px;
+  margin: 40px 0px;
+}
+
+.btn-blue {
+  background-color: #3d84b8;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #3f3697;
+  color: white;
+  border-radius: 8px;
+}
+
+.center {
+  text-align: center;
+}
+
+.icon {
+  font-size: 32px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .btn-blue {
+    font-size: 1rem;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+  }
+}
